@@ -53,15 +53,14 @@ export default function ResultContent({ first, second, last }) {
       />
       <Tag>{second.tag}</Tag>
       <TitleWithEmoji
-        title="나와제일_안맞는_냥이"
+        title="나와_거리가_먼_냥이"
         emoji="👎"
       />
       <Tag>{last.tag}</Tag>
       <TitleWithEmoji
-        title="공유하기"
+        title="공유하기 // 아직이욤"
         emoji="💡"
       />
-      <ShareButtons />
     </Container>
   );
 }

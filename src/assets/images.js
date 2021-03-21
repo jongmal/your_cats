@@ -54,9 +54,9 @@ import Profile402 from './images/profiles/profile4_2.png';
 import Profile403 from './images/profiles/profile4_3.png';
 import Profile404 from './images/profiles/profile4_4.png';
 
-import NanKimImage from './images/contributors/nkim.png';
-import YeeunHanImage from './images/contributors/yehan.png';
-import SeungjuChoiImage from './images/contributors/sjchoi.png';
+import NanKimImage from './images/profiles/profile2_3.png';
+import YeeunHanImage from './images/profiles/profile2_3.png';
+import SeungjuChoiImage from './images/profiles/profile2_3.png';
 
 export {
   WhiteLogoImage,

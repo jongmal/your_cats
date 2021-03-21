@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jongmal/whats_your_cat.git"
+    "url": "git+https://github.com/jongmal/your_cats.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://jongmal.github.io/whats_your_cat/issues"
+    "url": "https://github.com/jongmal/your_cats/issues"
   },
-  "homepage": "https://jongmal.github.io/whats_your_cat/",
+  "homepage": "https://github.com/jongmal/your_cats",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
