@@ -30,8 +30,10 @@ import PlugAndPlayTitleImage from './images/result/plugandplay_title.png';
 import TeslaLogoImage from './images/result/tesla_logo.png';
 import TeslaTitleImage from './images/result/tesla_title.png';
 
-import FeedImage101 from './images/feeds/feed3.jpg';
-import FeedImage102 from './images/feeds/feed4.jpg';
+import FeedImage101 from './images/feeds/1.jpg';
+import FeedImage102 from './images/feeds/2.jpg';
+import FeedImage103 from './images/feeds/3.jpg';
+import FeedImage104 from './images/feeds/4.jpg';
 import FeedImage201 from './images/feeds/feed2_1.png';
 import FeedImage202 from './images/feeds/feed2_2.png';
 import FeedImage301 from './images/feeds/feed3_1.png';
@@ -98,6 +100,8 @@ export const questionnaireImages = {
   1: [
     FeedImage101,
     FeedImage102,
+    FeedImage103,
+    FeedImage104,
   ],
   2: [
     Profile203,

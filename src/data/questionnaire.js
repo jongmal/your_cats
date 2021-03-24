@@ -115,7 +115,7 @@ const questionnaire = [
     nextId: null,
     type: 'question',
     content: {
-      title: 'Question6',
+      title: 'Question7',
       question: '집에 집사와 함께 새로운 손님이 왔어요. 자꾸 저한테 말을 걸어요. 어떻게 행동할까요?',
       options: [
         { id: 1, title: '인간은 다 좋다냥! 다가가서 머리를 부비적댄다.' },
@@ -131,7 +131,7 @@ const questionnaire = [
     nextId: 10,
     type: 'question',
     content: {
-      title: 'Question7',
+      title: 'Question8',
       question: '오늘은 친절하고 다정한 인사팀의 헤일리와 점심을 먹기로 했어요. 당신이 중요시 여기는 직업 가치관이 무엇인지 물어봅니다.',
       options: [
         { id: 1, title: '‘최고의 성과를 낼테니 그냥 돈으로 보상해주세요 (찡긋)’ 보수와 능력발휘' },

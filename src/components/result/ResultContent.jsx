@@ -29,7 +29,7 @@ const Subtitle = styled.div({
 const CompanyLogo = styled.img({
   display: 'block',
   margin: '1.8em auto',
-  height: '6em',
+  height: '12em',
   maxWidth: '80vw',
 });
 
@@ -44,7 +44,7 @@ export default function ResultContent({ first, second, last }) {
         src={companyLogos[first.id]}
         alt=""
       />
-      <Subtitle>{first.name}</Subtitle>
+      <Subtitle> </Subtitle>
       <Subtitle>{first.subtitle}</Subtitle>
       <p>{first.description}</p>
       <TitleWithEmoji
@@ -58,9 +58,10 @@ export default function ResultContent({ first, second, last }) {
       />
       <Tag>{last.tag}</Tag>
       <TitleWithEmoji
-        title="공유하기 // 아직이욤"
+        title="공유하기"
         emoji="💡"
       />
+      <ShareButtons></ShareButtons>
     </Container>
   );
 }

@@ -21,7 +21,7 @@ const ButtonWrapper = styled.div({
 });
 
 export default function ShareButtons() {
-  const shareUrl = 'https://hellosiliconvalley.me';
+  const shareUrl = 'https://jongmal.github.io/your_cats';
 
   return (
     <Container>

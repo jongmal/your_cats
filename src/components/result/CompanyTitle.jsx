@@ -8,8 +8,8 @@ const Company = styled.img({
   display: 'block',
   margin: '1.8em auto',
   padding: '.5em',
-  height: '3em',
-  maxWidth: '75vw',
+  height: '12em',
+  maxWidth: '200vw',
   backgroundColor: '#FFF',
   borderRadius: '.5em',
 });
