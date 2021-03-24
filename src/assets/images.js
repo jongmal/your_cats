@@ -53,6 +53,11 @@ import Profile401 from './images/profiles/profile4_1.png';
 import Profile402 from './images/profiles/profile4_2.png';
 import Profile403 from './images/profiles/profile4_3.png';
 import Profile404 from './images/profiles/profile4_4.png';
+import p1 from './images/profiles/1.png';
+import p2 from './images/profiles/2.png';
+import p3 from './images/profiles/3.png';
+import p4 from './images/profiles/4.png';
+import p5 from './images/profiles/5.png';
 
 import NanKimImage from './images/profiles/profile2_3.png';
 import YeeunHanImage from './images/profiles/profile2_3.png';
@@ -97,42 +102,44 @@ export const questionnaireImages = {
   2: [
     Profile203,
     Profile304,
-    Profile203,
-    Profile304,
+    p1,
+    p2,
   ],
   3: [
+    p3,
+    p4,
+    p5,
     Profile203,
-    Profile304,
-    Profile203,
-    Profile304,
   ],
   4: [
     Profile203,
     Profile304,
-    Profile203,
-    Profile304,
+    p1,
+    p2,
   ],
   5: [
+    p3,
+    p4,
+    p5,
     Profile203,
-    Profile304,
-    Profile203,
-    Profile304,
   ],
   6: [
-    FeedImage201,
-    FeedImage202,
+    Profile203,
+    Profile304,
+    p1,
+    p2,
   ],
   7: [
-    Profile101,
-    Profile102,
-    Profile103,
-    Profile104,
+    p3,
+    p4,
+    p5,
+    Profile203,
   ],
   8: [
-    Profile201,
-    Profile202,
     Profile203,
-    Profile204,
+    Profile304,
+    p1,
+    p2,
   ],
   9: [
     Profile301,
