@@ -64,7 +64,7 @@ const questionnaire = [
   {
     id: 5,
     previousId: 4,
-    nextId: null,
+    nextId: 6,
     type: 'question',
     content: {
       title: 'Question4',
@@ -81,18 +81,15 @@ const questionnaire = [
     id: 6,
     previousId: 5,
     nextId: 7,
-    type: 'overview',
+    type: 'question',
     content: {
-      title: 'Day2. Welcome_To_Real_Valley',
-      explanation: `
-        어느 회사의 햇병아리 신입사원이 되었습니다. 
-        내 몸에 딱 맞는 핏의 캐주얼 룩과, 
-        아이스 아메리카노 한 잔, 맥북을 들고.
-        기대반 걱정반 떨리는 마음으로 첫 출근을 하게 되는데..!
-      `,
-      tips: [
-        '# 실리콘밸리는 ‘Bay area’ 라는 제 2의 별명을 가졌답니다!',
-        '# ‘Bay area k group’ 이라는 한인 네트워크가 있으며, 한인들과 여러가지 취미 활동을 즐길 수 있습니다',
+      title: 'Question5',
+      question: '집안을 돌아다니다가 집사를 발견했어요! 어떻게 행동할까요?',
+      options: [
+        { id: 1, title: '집사 뒤를 졸졸졸 따라다닌다.' },
+        { id: 2, title: '멀찍이 서서 집사가 무엇을 하나 구경한다.' },
+        { id: 3, title: '달려가서 집사에게 애정표현을 해본다.' },
+        { id: 4, title: '집사를 관찰하다가 빈틈이 보이면 달려간다.' },
       ],
     },
   },
@@ -102,29 +99,29 @@ const questionnaire = [
     nextId: 8,
     type: 'question',
     content: {
-      title: 'Question5',
-      question: '학교 선배의 추천으로 한 회사의 최종면접까지 간 당신. 이 회사에 마지막으로 남길 당찬 포부는요?',
+      title: 'Question6',
+      question: '심심한데 집사가 나에게 관심을 안주네요. 어떻게 행동할까요?',
       options: [
-        { id: 1, title: '바람이 불지 않으면 노를 저어라! 믿음직하고 성실한 일꾼이 되겠습니다!' },
-        { id: 2, title: '저는 팀프로젝트의 왕입니다. 저의 커뮤니케이션 능력과 협업능력을 믿으세요.' },
-        { id: 3, title: '저의 뛰어난 실력으로 항상 최고의 성과를 내겠습니다. 그야 전 짱이니까요?' },
-        { id: 4, title: '실패도 두렵지 않습니다. 저의 도전정신으로 새로운 혁신을 일으키겠습니다!' },
+        { id: 1, title: '“냐-----앙!!!” 집사에게 크게 외쳐서 불러본다.' },
+        { id: 2, title: '“냥냐냐냥냐!” 다가가서 계속해서 말을 걸어본다.' },
+        { id: 3, title: '조용히 엎드려서 집사가 뭐하나 구경한다.' },
+        { id: 4, title: '다가가서 부비적 부비적 몸으로 표현해본다.' },
       ],
     },
   },
   {
     id: 8,
     previousId: 7,
-    nextId: 9,
+    nextId: null,
     type: 'question',
     content: {
       title: 'Question6',
-      question: '축하합니다. 최종 합격입니다!! 첫 프로젝트를 시작한 당신. 미팅 중 당신은 어떤 역할을 맡았을까?',
+      question: '집에 집사와 함께 새로운 손님이 왔어요. 자꾸 저한테 말을 걸어요. 어떻게 행동할까요?',
       options: [
-        { id: 1, title: '다양하고 창의적인 발상을 이끌어내는 아이디어 뱅크' },
-        { id: 2, title: '회의 내용을 기록하고, 시간을 관리하며, 현실적인 대안을 내는 서포터' },
-        { id: 3, title: '자신의 생각을 논리적이고 분석적으로 주장하는 스피커' },
-        { id: 4, title: '회의를 주도적으로 이끌고 의견을 수렴하여 방향성을 제시하는 리더' },
+        { id: 1, title: '인간은 다 좋다냥! 다가가서 머리를 부비적댄다.' },
+        { id: 2, title: '집사 말고는 싫다냥! 집사 뒤로 숨어버린다.' },
+        { id: 3, title: '누가 오거나 말거나 귀찮다냥. 관심을 꺼버린다.' },
+        { id: 4, title: '냄새가 궁금하긴 한데....낯설고... 주변을 탐색한다.' },
       ],
     },
   },
